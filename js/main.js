@@ -1,0 +1,1 @@
+// JavaScript File for the vocabulary trainer 
