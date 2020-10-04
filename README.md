@@ -12,6 +12,7 @@ To visit the vocabulary trainer please visit this link : https://naseif.github.i
   - text input with missing words
   - speech output and you have to type what you heared
   - speech recognition: you have to speak and the application tells you if you are right
+  - add tasks that do a video playback so one can add additional content
 - animations / effects and such stuff
 - motivating messages at random times like "wow, you are awesome", "i didn't expect this, awesome!"
 
