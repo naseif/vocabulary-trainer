@@ -71,14 +71,12 @@ function questionProgress() {
         nextQuestion();
         fillTheChoices();
         return;
-    }
-    if (choice2.checked && questionsAndAnswers[activeQuestion].rightAnswer === 2) {
+    } else if (choice2.checked && questionsAndAnswers[activeQuestion].rightAnswer === 2) {
         alert("You got the right answer!")
         nextQuestion();
         fillTheChoices()
         return;
-    }
-    if (choice3.checked && questionsAndAnswers[activeQuestion].rightAnswer === 3) {
+    } else if (choice3.checked && questionsAndAnswers[activeQuestion].rightAnswer === 3) {
         alert("You got the right answer!")
         nextQuestion();
         fillTheChoices();
