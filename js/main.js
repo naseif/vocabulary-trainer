@@ -82,4 +82,5 @@ function questionProgress() {
         fillTheChoices();
         return;
     }
+    return wrongAnswerMsg();
 }
