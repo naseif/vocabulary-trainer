@@ -35,6 +35,8 @@ let mainquestion = document.getElementById("mainquestion");
 // Currently selected question
 
 let activeQuestion = 0;
+let checkButton = document.getElementById("checkbutt")
+checkButton = document.getElementById("checkbutt").addEventListener("click", questionProgress);
 
 // changing the content of the html ids
 
@@ -48,8 +50,12 @@ function nextQuestion() {
     activeQuestion += 1;
 
     if ( activeQuestion > questionsAndAnswers.length-1 ) {
-        alert("You answered all questions")
+        activeQuestion = 0;
     }
+}
+
+function wrongAnswerMsg() {
+    alert("Thats Wrong, Please try again!")
 }
 
 function fillTheChoices() {
@@ -64,15 +70,18 @@ function questionProgress() {
         alert("You got the right answer!")
         nextQuestion();
         fillTheChoices();
+        return;
     }
     if (choice2.checked && questionsAndAnswers[activeQuestion].rightAnswer === 2) {
         alert("You got the right answer!")
         nextQuestion();
         fillTheChoices()
+        return;
     }
     if (choice3.checked && questionsAndAnswers[activeQuestion].rightAnswer === 3) {
         alert("You got the right answer!")
         nextQuestion();
         fillTheChoices();
+        return;
     }
 }
