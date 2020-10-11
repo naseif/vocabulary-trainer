@@ -70,17 +70,15 @@ function questionProgress() {
         alert("You got the right answer!")
         nextQuestion();
         fillTheChoices();
-        return;
     } else if (choice2.checked && questionsAndAnswers[activeQuestion].rightAnswer === 2) {
         alert("You got the right answer!")
         nextQuestion();
         fillTheChoices()
-        return;
     } else if (choice3.checked && questionsAndAnswers[activeQuestion].rightAnswer === 3) {
         alert("You got the right answer!")
         nextQuestion();
         fillTheChoices();
-        return;
+    } else {
+        wrongAnswerMsg();
     }
-    return wrongAnswerMsg();
 }
