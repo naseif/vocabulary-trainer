@@ -8,7 +8,7 @@ To visit the vocabulary trainer please visit this link : https://naseif.github.i
 - Bootstrap as design foundation
 - different types of questions
   - [X] single choice
-  - [ ] Multiple choice
+  - [X] Multiple choice
   - [ ] text input
   - [ ] text input with missing words
   - [ ] speech output and you have to type what you heared
