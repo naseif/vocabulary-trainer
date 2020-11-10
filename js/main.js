@@ -4,7 +4,7 @@ let questionsAndAnswers = [
         question: "Who is Donald Trump?",
         answer1: "A moron.",
         answer2: "A figure from a comic book.",
-        answer3: "Its Bob.",
+        answer3: "A loser.",
         rightAnswer: 1
     },
     {
@@ -12,7 +12,7 @@ let questionsAndAnswers = [
         question: "Is javascript a programming language?",
         answer1: "Mmmh.",
         answer2: "Yes.",
-        answer3: "What? What?",
+        answer3: "What? NO!",
         rightAnswer: 2
     },
     {
